@@ -1,1 +1,1 @@
-export { ToolbarItemGroup } from './ToolbarItemGroup';
+export { ToolbarItemGroup } from "./ToolbarItemGroup";
