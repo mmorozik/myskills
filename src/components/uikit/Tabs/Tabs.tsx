@@ -20,6 +20,7 @@ export const Tabs: React.FC<Props> = ({
     <div className={styles.tabs}>
       {tabs.map((tab) => (
         <Tab
+          key={tab.id}
           onClick={(id) => setActiveTabId(id)}
           tab={tab}
           activeTabId={activeTabId}
